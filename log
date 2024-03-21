@@ -124,3 +124,17 @@ exercises.c:66:18: error: expected identifier or ‘(’ before ‘=’ token
       |                  ^
 Compilation failed
 2c92a5c
+Thu 21 Mar 2024 08:35:15 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:66:16: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   66 |     *elementos = next(L);
+      |                ^
+exercises.c:66:16: error: ‘elementos’ may be used uninitialized [-Werror=maybe-uninitialized]
+   66 |     *elementos = next(L);
+      |     ~~~~~~~~~~~^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+66808f0
