@@ -63,7 +63,7 @@ int sumaLista(List *L) {
   void *dato = first(L);
  for (i = 0 ; i < get_size(L) ; i++){
     elemento += *(int*) dato;
-    dato = next(L);
+    dato = next(L); 
  }
   return elemento;
 }
@@ -78,7 +78,13 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
-
+  int *nodo = first(L);
+  while(nodo != NULL){
+    if(*nodo == elem){
+      popCurrent(L);
+    }
+    nodo = next(L);
+  }
 }
 
 /*
