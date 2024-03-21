@@ -150,3 +150,15 @@ Thu 21 Mar 2024 08:41:04 PM UTC:
  tests:  1|4
 total_score: 10/70
 91aa19b
+Thu 21 Mar 2024 08:42:28 PM UTC: 
+ exercises.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:65:28: error: expected ‘;’ before ‘)’ token
+   65 |     elemento += *(int*)dato);
+      |                            ^
+      |                            ;
+exercises.c:65:28: error: expected statement before ‘)’ token
+Compilation failed
+3805971
