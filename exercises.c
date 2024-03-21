@@ -62,7 +62,8 @@ int sumaLista(List *L) {
   int elemento = 0;
  for (i = 0 ; i < get_size(L) ; i++){
     elemento += *(int*)first(L);
-    popFront(L);
+    popCurrent(L);
+   
    
  }
   return elemento;
