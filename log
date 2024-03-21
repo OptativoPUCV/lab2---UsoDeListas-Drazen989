@@ -75,3 +75,19 @@ exercises.c:62:7: error: unused variable ‘elementos’ [-Werror=unused-variabl
 cc1: all warnings being treated as errors
 Compilation failed
 a6cf3eb
+Thu 21 Mar 2024 08:33:54 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:66:5: error: ‘elemntos’ undeclared (first use in this function); did you mean ‘elementos’?
+   66 |     elemntos = next(L);
+      |     ^~~~~~~~
+      |     elementos
+exercises.c:66:5: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:62:7: error: unused variable ‘elementos’ [-Werror=unused-variable]
+   62 |   int elementos = 0;
+      |       ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+b39ee4b
