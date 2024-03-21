@@ -91,3 +91,17 @@ exercises.c:62:7: error: unused variable ‘elementos’ [-Werror=unused-variabl
 cc1: all warnings being treated as errors
 Compilation failed
 b39ee4b
+Thu 21 Mar 2024 08:34:04 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:66:17: error: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   66 |       elementos = next(L);
+      |                 ^
+exercises.c:62:7: error: variable ‘elementos’ set but not used [-Werror=unused-but-set-variable]
+   62 |   int elementos = 0;
+      |       ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d604121
