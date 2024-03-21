@@ -100,6 +100,10 @@ void copia_pila(Stack* P1, Stack* P2) {
     push(P3, pop(P1));
     next(P1);
   }
+  while(P3 != NULL){
+    push(P2, pop(P3));
+    next(P3);
+  }
 }
 
 /*
