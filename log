@@ -43,3 +43,16 @@ Thu 21 Mar 2024 08:27:34 PM UTC:
  tests:  1|4
 total_score: 10/70
 2aacbc5
+Thu 21 Mar 2024 08:29:50 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:64:32: error: invalid use of undefined type ‘struct List’
+   64 |     elementos += *(int*)first(L[i]);
+      |                                ^
+exercises.c:64:32: error: invalid use of incomplete typedef ‘List’
+   64 |     elementos += *(int*)first(L[i]);
+      |                               ~^~~
+Compilation failed
+0260e70
