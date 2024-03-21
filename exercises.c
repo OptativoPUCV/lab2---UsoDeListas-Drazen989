@@ -33,6 +33,8 @@ void imprime_y_vacia_pila(Stack *P) {
    printf("]\n");
 }
 
+int i;
+
 /* 
 Ejercicio 1.
 Crea una Lista y agrega punteros a elementos del 1 al 10.
@@ -43,7 +45,7 @@ Al finalizar retorna la lista creada.
 
 List* crea_lista() {
   List* L = create_list();
-  for (int i = 1 ; i < 11 ; i++){
+  for (i = 1 ; i < 11 ; i++){
     int* dato = (int*)malloc(sizeof(int));
     *dato = i;
     push(L, dato);
