@@ -61,7 +61,7 @@ retorne la suma de sus elementos.
 int sumaLista(List *L) {
   int elementos = 0;
  for (i = 0 ; i < get_size(L) ; i++){
-    elemetos += *(int*)first(L);
+    elementos += *(int*)first(L);
  }
   return elementos;
 }

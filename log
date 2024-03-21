@@ -37,3 +37,9 @@ exercises.c:64:5: error: ‘elemetos’ undeclared (first use in this function);
 exercises.c:64:5: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 c4fad77
+Thu 21 Mar 2024 08:27:34 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+2aacbc5
