@@ -138,3 +138,9 @@ exercises.c:66:16: error: ‘elementos’ may be used uninitialized [-Werror=may
 cc1: all warnings being treated as errors
 Compilation failed
 66808f0
+Thu 21 Mar 2024 08:39:16 PM UTC: 
+ exercises.c | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+ tests:  2|3
+total_score: 20/70
+1cefead
