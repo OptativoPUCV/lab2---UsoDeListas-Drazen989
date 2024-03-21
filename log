@@ -105,3 +105,22 @@ exercises.c:62:7: error: variable ‘elementos’ set but not used [-Werror=unus
 cc1: all warnings being treated as errors
 Compilation failed
 d604121
+Thu 21 Mar 2024 08:34:37 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:62:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+   62 |   int elementos* ;
+      |                ^
+exercises.c:62:18: error: expected expression before ‘;’ token
+   62 |   int elementos* ;
+      |                  ^
+exercises.c:66:7: error: unknown type name ‘elementos’
+   66 |       elementos* = next(L);
+      |       ^~~~~~~~~
+exercises.c:66:18: error: expected identifier or ‘(’ before ‘=’ token
+   66 |       elementos* = next(L);
+      |                  ^
+Compilation failed
+2c92a5c
